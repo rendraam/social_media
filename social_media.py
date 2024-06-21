@@ -7,8 +7,8 @@ from sklearn.preprocessing import LabelEncoder
 # model_social_media = dir_path + 'model/sosmed_knn_model.sav'
 # scaler_social_media_dir = dir_path + 'model/scaler_socmed_knn.sav'
 
-scaler = 'model/scaler_socmed_svm.sav'
-model = 'model/socmed_model_svm.sav'
+scaler = 'model/scaler_socmed_knn.sav'
+model = 'model/socmed_model_knn.sav'
 filename = 'dataset/DATATES.csv'
 
 df = pd.read_csv(filename)
